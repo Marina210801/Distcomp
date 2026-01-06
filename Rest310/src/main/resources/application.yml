@@ -1,0 +1,15 @@
+server:
+  port: 24110
+
+spring:
+  http:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+  mvc:
+    locale: ru_RU
+    format:
+      date: iso
+      time: iso
+      date-time: iso
